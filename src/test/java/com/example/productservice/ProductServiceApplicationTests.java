@@ -28,7 +28,7 @@ class ProductServiceApplicationTests {
 	@Container
 	static MongoDBContainer mongoDBContainer = new MongoDBContainer("mongo:6.0.1");
 	@Autowired
-	private MockMvc mockMvc2;
+	private MockMvc mockMvc;
 	@Autowired
 	private ObjectMapper objectMapper;
 	@Autowired
